@@ -1,0 +1,146 @@
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+	color: #301210;
+}
+p {
+    font-family: 'Lato', sans-serif;
+	color: #301210;
+}
+html {
+    background-color: #F5FFE2;
+	margin:0;
+	padding:0;
+    height:  100%;
+}
+body {
+	margin:0;
+	padding: 0;
+	height: 100%;
+	background-color: #F5FFE2;
+	font-family: 'Lato', sans-serif;
+}
+.parent {
+	background-color: #f8eae7;
+	width: 80%;
+	margin: 0 auto 0 auto;
+	padding: 15px;
+	box-shadow: 0px 0px 10px #999;
+}
+.button {
+  background-color: #813528;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0em 6em 1em 1em;
+  box-shadow: 1px 1px 3px #777;
+}
+table th {
+	color: #301210;
+	font-family: 'Lato', sans-serif;
+}
+table td {
+	color: #301210;
+	font-family: 'Lato', sans-serif;
+}
+
+/************** Header *************/
+.header {
+	width: 100%;
+	background-color: #813528;
+	color: #f8eae7;
+	box-shadow: 5px 0px 10px #444;
+}
+.header .header-top {
+	width: 40%;
+	margin: 0px auto 20px auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 24pt;
+}
+.header .navigation ul {
+	list-style-type: none;
+	width: 50%;
+	margin: 0px auto 0px auto;
+	padding: 10px;
+	text-align: center;
+	-webkit-padding-start: 0px;
+}
+.header .navigation ul li {
+	display: inline;
+	padding: 10px;
+}
+.header .navigation ul li a {
+	text-decoration: none;
+	color: #f8eae7;
+}
+.header .navigation ul li a:hover {
+	text-decoration: underline;
+}
+/*********** end Header ********/
+#master_btn {
+	display: block;
+	padding: 10px;
+	clear: both;
+	margin-left: 13em;
+}
+#master_btn form {
+	float: left;
+	margin-left: 10px;
+}
+#add_btn {
+	padding: 10px 40px;
+}
+#all_form {
+	float: left;
+}
+#status_form {
+	float: left;
+}
+
+/*********Entries************/
+.entry {
+	border-bottom: 1px solid #813428;
+}
+.left-column {
+	width: 20%;
+	float: left;
+	padding: 10px;
+}
+.right-column {
+	width: 70%;
+	float: left;
+	padding: 10px;
+	border-left: 1px solid #813528;
+
+}
+.clear {
+	clear: both;
+}
+/******** end Entries *******/
+
+/*********** Footer ******/
+.footer {
+	width: 100%;
+	height: 15%;
+	background-color: #813528;
+	color: #f8eae7;
+	box-shadow: -10px 0px 10px #444;
+}
+.footer .footer-text {
+	width: 40%;
+	margin: 0px auto 0px auto;
+	padding: 20px;
+	text-align: center;
+	color: #f8eae7;
+}
+/********** end Footer ********/
+
+
+
+
