@@ -1,0 +1,14 @@
+/* CSS Document */
+/*#entry_category {
+	display: block;
+}*/
+#add_edit_category_button {
+	margin-left: 70px;
+}
+/**********Add/Edit Status ******/
+#add_edit_status {
+	display: none;
+}
+#add_edit_category {
+	display: none;
+}
