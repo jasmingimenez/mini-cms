@@ -20,3 +20,6 @@ single_category($i) : returns all the database information belonging to one entr
 add_category($category) : adds a category to the database
 edit_category($id, $category) : takes information from user and updates the category table in the database
 remove_category($i) : deletes the category from the database with the given $id.
+
+class.entry_category.php
+This class controls the relational database table entry_category
